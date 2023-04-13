@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="https://fom.in.ua/echo" method="post">
+
+        <fieldset>
+            <legend>ваші данні</legend>
+            <p>
+                <label>
+                    Ваше ім'я*
+                    <input type="text" name="username" value="Oksana" required autofocus>
+                </label>
+            </p>
+            <p>
+                <label for="login">Ваш логін</label>
+                <input type="text" name="userlogin" id="login" placeholder="Ваш логін">
+            </p>
+            <p>
+                <label>
+                    Ваш пароль*
+                    <input type="password" name="userpass" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Ваш email*
+                    <input type="email" name="email" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Ваш телефон
+                    <input type="tel" name="phone" value="0981234567" disabled>
+                </label>
+            </p>
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>ваші данні</legend>
+            <p>
+                <label>
+                    <input type="checkbox" name="tomato" checked>
+                    помідори
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="cuc">
+                    огірки
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="tomato2" disabled>
+                    помідори2
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="cuc2" checked disabled>
+                    огірки2
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="woman" checked>
+                    жіноча
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="man" disabled>
+                    чоловіч
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="dontknow">
+                    не визначився
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex2" value="woman">
+                    жіноча
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex2" value="man" checked>
+                    чоловіч
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex2" value="dontknow">
+                    не визначився
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>ваші данні</legend>
+            <p>
+                <label>
+                    виберіть місто
+                    <select name="city">
+                        <option value="kiev">київ</option>
+                        <option value="lviv" selected>львів</option>
+                        <option value="odesa">одеса</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    виберіть місто
+                    <select name="city2">
+                        <optgroup label="Україна">
+                            <option value="kiev">київ</option>
+                            <option value="lviv">львів</option>
+                            <option value="odesa">одеса</option>
+                        </optgroup>
+                        <optgroup label="Польща">
+                            <option value="war">варшава</option>
+                            <option value="ps">пшемишль</option>
+                            <option value="lz">лодзь</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    виберіть місто
+                    <select name="city3" multiple size="2">
+                        <option value="kiev">київ</option>
+                        <option value="lviv">львів</option>
+                        <option value="odesa">одеса</option>
+                        <option value="war">варшава</option>
+                        <option value="ps">пшемишль</option>
+                        <option value="lz">лодзь</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    напишіть щось
+                    <textarea name="mess">default text</textarea>
+                </label>
+            </p>
+            <p>
+                <label>
+                    ваш вік
+                    <input type="number" name="age">
+                </label>
+            </p>
+            <p>
+                <label>
+                    дата
+                    <input type="date" name="date">
+                </label>
+            </p>
+            <p>
+                <label>
+                    завантажити файл
+                    <input type="file" name="file">
+                </label>
+            </p>
+        </fieldset>
+        <!-- <p>
+            <button type="submit">
+                <span>1</span>
+                <b>2</b>
+                <span>відправити</span>
+            </button>
+        </p> -->
+
+        <p>
+            <input type="submit" value="відправити 2">
+            <input type="reset" value="reset form">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
