@@ -1,0 +1,208 @@
+.body {
+    font-family: Arial, sans-serif;
+}
+
+/* h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 45px;
+}
+
+section {
+    font-size: 20px;
+}
+
+.about {
+    font-size: 35px;
+}
+
+.block-us {
+    font-size: 80px;
+}
+
+#box {
+    font-size: 90px;
+} */
+
+
+.title {
+    text-align: center;
+    /* text-align: right; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* color: lightsalmon; */
+    /* color: #ff00ff; */
+    /* color: rgb(215, 62, 62); */
+    /* color: rgba(255, 59, 170, 0.49); */
+}
+
+.item {
+    font-family: Arial, sans-serif;
+    /* font-family: "Times New Roman", serif; */
+    font-weight: bold;
+    font-style: italic;
+    font-size: 34px;
+    line-height: 60px;
+    /* letter-spacing: 5px; */
+    word-spacing: 30px;
+    /* text-align: justify; */
+    /* text-transform: capitalize; */
+}
+
+.link {
+    font-size: 90px;
+    text-decoration: none;
+}
+
+
+.under-title {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+/* 
+селектор {
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+}
+
+селектор {
+    властивість: значеннявластивості;
+}
+
+селектор {
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+} */
+
+/* 
+p {
+    font-size: 40px;
+}
+
+.dad {
+    color: red;
+}
+#box {
+    line-height: 45px;
+} */
+
+/* .elem {
+    font-size: 40px;
+}
+
+.elem-inset {
+    font-size: 50px;
+}
+
+.elem2 {
+    color: red;
+} */
+
+/* .elem3 {
+    color: red;
+    font-size: 50px;
+}
+
+.elem3-link {
+    color: red;
+} */
+
+/* 
+
+
+.find p {
+    color: red;
+}
+
+.find h1 {
+    color: green;
+}
+
+.qwerty .gala {
+    color: green;
+}
+
+.box30 .inset {
+
+} */
+
+/* #id {
+    font-size: 60px;
+}
+
+.text {
+    font-size: 40px;
+} */
+/* 
+p {
+    font-size: 30px;
+    
+} */
+
+
+
+
+
+
+.section .strong {     /* 0 2 0 */
+    color: red;
+}
+
+.article .parent b {    /*0 2 1*/
+    color: blue;
+}
+
+section div .inline .strong {   /*0 2 2*/
+    color: aqua;
+}
+
+#box100 article .parent span b {    /*1 1 3*/
+    color: brown;
+}
+
+.section .article .parent .inline .strong { /*0 5 0*/
+    color: lightcoral;
+}
+
+#box100 b { /*1 0 1*/
+    color: darkcyan;
+}
+
+.parent span .strong {  /*0 2 1*/
+    color: midnightblue;
+}
+
+section article div .inline b { /*0 1 4*/
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box200 {
+    color: red;
+}
+
+
+
+
