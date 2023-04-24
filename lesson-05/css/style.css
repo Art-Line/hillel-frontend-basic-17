@@ -156,3 +156,25 @@
     /* margin: 10px 40px 30px; */
     /* margin: 20px 30px 40px 50px; */
 }
+
+
+
+.h2-title {
+    font-weight: bold;
+}
+
+
+.box h2 {
+    color: white;
+}
+
+.about h2 {
+    color: red;
+}
+
+.example {
+    background-image: url('../img/item.jpg');
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}

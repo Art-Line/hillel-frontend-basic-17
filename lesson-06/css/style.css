@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+    background-color: red;
+
+
+
+    /* border: 5px solid green; */
+    /* border-top: 10px solid black;
+    border-right: 5px dashed green;
+    border-bottom: 7px dotted blue;
+    border-left: 15px double orange */
+
+
+    /* border-top: 10px solid black;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: black; */
+
+
+    border: 5px solid green;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: green; */
+}
+
+/* .block {
+    width: 300px;
+    padding: 0 25px;
+} */
+
+
+/* .box-01 {
+    background-color:red;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.box-02 {
+    height: 100px;
+    background-color: green;
+    margin-top: 30px;
+}
+.section {
+    background-color: purple;
+}
+.title {
+    font-size: 30px;
+    margin-top: 100px;
+} */
+
+
+.span {
+    font-size: 30px;
+    background-color: red;
+    /* width: 200px;
+    height: 300px; */
+    /* padding: 20px 0; */
+    /* border-right: 10px solid green; */
+    /* margin: 0 30px; */
+    /* margin: 30px 0; */
+}
+
+
+
+/* 100% !== auto */
+
+
+
+
+.divik {
+    background-color: red;
+    /* width: auto; */
+    padding: 0 10px;
+}
+
+.divik2 {
+    background-color: green;
+    width: 100%;
+}
+
+
+
+.box45  {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border: 15px solid black;
+    margin: 10px;
+}
+
+
+.box-90 {
+    padding: 44px 40px 9px;
+}
+
+.box-90 p {
+    padding-bottom: 31px;
+}
+
+
+
+.box-009 {
+    width: 300px;
+    padding: 20px;
+    border: 15px solid black;
+    background-color: rosybrown;
+    box-sizing: border-box;
+}
