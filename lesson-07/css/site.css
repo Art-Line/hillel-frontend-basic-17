@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.capa-head {
+    padding-bottom: 76px;
+}
+
+.capa-head h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    text-transform: uppercase;
+    float: left;
+}
+
+.capa-head a {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 11px 24px;
+    background: #00A4E5;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    margin-top: 5px;
+}
+
+.capa-list {
+    font-size: 0;
+}
+
+.capa-item {
+    border: 1px solid #E6E6E6;
+    padding: 38px 23px;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.capa-img-01 {
+    background-image: url('../img/capa-item-01.jpg');
+    width: 66px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+.capa-img-02 {
+    background-image: url('../img/capa-item-02.jpg');
+    width: 68px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+.capa-img-03 {
+    background-image: url('../img/capa-item-03.jpg');
+    width: 71px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+.capa-item h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+}
+
+.capa-item p {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+
+
+.mr-0 {
+    margin-right: 0;
+}
+
+
+.insta {
+    background-image: url('../img/insta.svg');
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+
+.insta2:hover path {
+    fill: black;
+}
+
+
+.menu {
+    padding-left: 0;
+    list-style: none;
+}
