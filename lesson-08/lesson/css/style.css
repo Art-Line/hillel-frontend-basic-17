@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    min-width: 768px;
+}
+
+.container {
+    max-width: 1140px;
+    min-width: 768px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.goods {
+    background-color: gray;
+}
+
+.goods-list {
+    font-size: 0;
+    margin: 0 -16px;
+}
+
+.goods-item {
+    width: 25%;
+    padding: 0 16px 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.goods-box {
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 25px 10px;
+}
+
+
+
+
+.qwerty {
+    font-size: 0;
+    margin: 0 -16px
+}
+
+.qwerty-item {
+    width: 33.333%;
+    padding: 0 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.qwerty-item-title {
+    
+}
