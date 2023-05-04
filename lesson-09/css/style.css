@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 991px;
+    margin: 0 auto;
+}
+
+.goods {
+    display: flex;
+    /* height: 500px; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    background-color: lightgoldenrodyellow;
+
+    /* flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column wrap; */
+}
+
+/* .item {
+    font-size: 24px;
+    border: 1px dashed black;
+    padding: 20px;
+    width: 25%;
+} */
+
+.order-parent {
+    display: flex;
+}
+
+.order-item {
+    width: 25%;
+    padding: 20px;
+    background-color: green;
+}
+
+.order-item_red {
+    background-color: red;
+}
+
+.grow-parent {
+    display: flex;
+    width: 500px;
+    background-color: yellow;
+}
+
+.grow-item {
+    width: 100px;
+    padding: 10px;
+    background-color: red;
+    border: 5px solid black;
+    flex-grow: 0;
+}
+
+.grow-item_02 {
+    flex-grow: 1;
+}
+
+.grow-item_03 {
+    flex-grow: 2; 
+}
+
+.shrink-parent {
+    display: flex;
+    width: 300px;
+    background-color: yellow;
+}
+
+.shrink-item {
+    width: 100px;
+    padding: 10px;
+    background-color: red;
+    border: 5px solid black;
+    flex-shrink: 0;
+}
+.shrink-item_02 {
+    flex-shrink: 1;
+}
+
+.shrink-item_03 {
+    flex-shrink: 2;
+}
+
+.self {
+    display: flex;
+    background-color: yellow;
+}
+
+.self-item {
+    width: 25%;
+    padding: 10px;
+    background-color: red;
+    border: 5px solid black;
+}
+
+.self-item_02 {
+    align-self: center;
+}
+
+.flex-example {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    height: 500px;
+}
+
+.item-example {
+    width: 25%;
+    border: 4px dashed black;
+    padding: 10px;
+}
