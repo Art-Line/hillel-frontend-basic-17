@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+}
+
+.footer {
+  display: block;
+}
+
+.box {
+  background-color: #1765ff;
+}
+
+.goods {
+  display: flex;
+  padding: 20px;
+}
+.goods::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+}
+.goods::before {
+  content: "lorem";
+}
+.goods__item {
+  padding: 1px;
+  margin: 80px;
+  font-size: 23px;
+}
+.goods__item--red {
+  color: red;
+}
+.goods__item:nth-child(2), .goods__item:nth-child(8) {
+  padding: 20px;
+}
+.goods__title {
+  font-size: 14px;
+}
+.goods__title a {
+  text-decoration: none;
+}
+.goods__title a:hover {
+  text-decoration: underline;
+}
+.goods__text {
+  padding: 45px;
+}
+.goods__link {
+  color: red;
+  text-decoration: none;
+}
+.goods__link:hover {
+  text-decoration: underline;
+}
+.goods--big {
+  margin-top: 30px;
+}
+
+.text {
+  color: #1765ff;
+  border-bottom: 1px solid #1765ff;
+  font-size: 30px;
+}
+
+.description {
+  padding: 20px;
+}
+.description p {
+  font-size: 15px;
+}
+.description a {
+  color: red;
+}
+.description a span {
+  color: green;
+}
+
+.ceftifacates {
+  display: flex;
+}
+
+.arrow {
+  padding-left: 1px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+.goods {
+    display: flex;
+    padding: 20px;
+    &::after {
+        content: '';
+        width: 20px;
+        height: 20px;
+    }
+    &::before {
+        content: 'lorem';
+    }
+    &__item {
+        padding: 1px;
+        margin: 80px;
+        font-size: 23px;
+        &--red {
+            color: red;
+        }
+        &:nth-child(2),
+        &:nth-child(8) {
+            padding: 20px;
+        }
+    }
+    &__title {
+        font-size: 14px;
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__text {
+        padding: 45px;
+    }
+    &__link {
+        color: red;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &--big {
+        margin-top: 30px;
+    }
+}

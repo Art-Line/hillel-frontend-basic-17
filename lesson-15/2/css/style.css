@@ -1,0 +1,10 @@
+@import url('./header.css');
+@import url('./footer.css');
+
+.body {
+    font-size: 23px;
+}
+.box {
+    padding: 30px;
+    
+}
