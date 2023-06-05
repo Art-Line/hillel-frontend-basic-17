@@ -29,3 +29,18 @@
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
+
+a {
+    color: blue;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+}
