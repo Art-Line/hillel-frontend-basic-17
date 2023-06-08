@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+
+}
+
+.name {
+
+}
+
+#id {
+
+}
+
+.name p {
+
+}
+
+.class .name {
+
+}
+
+.class,
+.class2 {
+
+}
+
+.class .box,
+.about p {
+
+}
+
+.list > li {
+    border-bottom: 1px solid #000;
+}
+
+
+.box-01:hover + .box-02 {
+    color: red;
+}
+
+
+.box-090 ~ .next {
+    color: red;
+}
+
+
+.text[type='text'] {
+    background-color: green;
+}
+
+.text[type='password'] {
+    background-color: red;
+}
+
+
+
+
+
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+
+.radio-label {
+    display: flex;
+}
+
+.radio-text {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.radio-text::before {
+    content: '';
+    border: 2px solid green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.radio-text::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    border-radius: 50%;
+    display: none;
+}
+
+.radio-input:checked + .radio-text::after {
+    display: block;
+}
+
+
+
+
+
+
+
+.checkbox-text {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-text::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid purple;
+    margin-right: 10px;
+}
+
+
+.checkbox-input:checked + .checkbox-text::before {
+    background-image: url('../img/check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

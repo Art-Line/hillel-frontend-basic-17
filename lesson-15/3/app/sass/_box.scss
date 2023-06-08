@@ -1,3 +1,15 @@
 .box {
     padding: 30px;
+    &::before {
+        content: '';
+    }
+    p {
+        color: red;
+    }
+    .link {
+        color: green;
+    }
+    &.link {
+        color: black;
+    }
 }

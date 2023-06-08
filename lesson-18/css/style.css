@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: green;
+}
+
+.arrow:hover circle,
+.arrow:hover path{
+    stroke: red;
+}
+
+.arrow2:hover path{
+    stroke: red;
+}
+
+.arrow3 {
+    width: 42px;
+    height: 42px;
+    border: 2px solid rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
+.arrow3:hover {
+    border-color: red;
+}
+
+.arrow3:hover path {
+    stroke: red;
+}

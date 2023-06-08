@@ -81,13 +81,27 @@
   overflow: hidden;
 }
 
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: red;
 }
-
 .footer {
   display: block;
   padding: 30px;
@@ -96,8 +110,16 @@
 .box {
   padding: 30px;
 }
-
-.good {
-  margin: 20px;
+.box::before {
+  content: "";
+}
+.box p {
+  color: red;
+}
+.box .link {
+  color: green;
+}
+.box.link {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
