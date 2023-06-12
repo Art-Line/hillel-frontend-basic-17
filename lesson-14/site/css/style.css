@@ -553,6 +553,9 @@
         background-color: transparent;
         border: none;
     }
+    .menu-btn:active {
+        background-color: gray;
+    }
     .menu-btn.close {
         background-image: url('../img/close.svg')
     }
