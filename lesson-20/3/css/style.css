@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.item {
+    border: 3px dashed black;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.wrap {
+    max-width: 1200px;
+    min-width: 320px;
+}
